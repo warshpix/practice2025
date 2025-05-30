@@ -1,0 +1,16 @@
+.idea/
+*.iml
+
+/out/
+
+Thumbs.db
+
+# Logs
+*.log
+
+.gradle/
+*.class
+
+*.swp
+*.tmp
+w
