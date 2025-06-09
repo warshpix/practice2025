@@ -62,17 +62,17 @@ public class Task2 {
         //вiд'емних. Ввiд припинити пiсля вводу 0.
         System.out.println("-------------------------------------------------------------------------------------------------------");
         System.out.println("Завдання 2");
-        int[] numbers = new int[4];
+        int[] numbers3 = new int[4];
         System.out.println("Введіть число 1");
-        numbers[0]=scanner.nextInt();
+        numbers3[0]=scanner.nextInt();
         System.out.println("Введіть число 2");
-        numbers[1]=scanner.nextInt();
+        numbers3[1]=scanner.nextInt();
         System.out.println("Введіть число 3");
-        numbers[2]=scanner.nextInt();
+        numbers3[2]=scanner.nextInt();
         System.out.println("Введіть число 4");
-        numbers[3]=scanner.nextInt();
+        numbers3[3]=scanner.nextInt();
 
-        String result = secondTask(numbers);
+        String result = secondTask(numbers3);
         System.out.println("\n=== Результат ===");
         System.out.println(result);
 
@@ -107,25 +107,25 @@ public class Task2 {
         //Виконати завдання 2, використовуючи оператори циклу.
         System.out.println("-------------------------------------------------------------------------------------------------------");
         System.out.println("Завдання 4");
-        int[] numbers = new int[4];
+        int[] numbers2 = new int[4];
         System.out.println("Введіть число 1");
-        numbers[0]=scanner.nextInt();
+        numbers2[0]=scanner.nextInt();
         System.out.println("Введіть число 2");
-        numbers[1]=scanner.nextInt();
+        numbers2[1]=scanner.nextInt();
         System.out.println("Введіть число 3");
-        numbers[2]=scanner.nextInt();
+        numbers2[2]=scanner.nextInt();
         System.out.println("Введіть число 4");
-        numbers[3]=scanner.nextInt();
+        numbers2[3]=scanner.nextInt();
 
         int sum=0;
         int count=0;
         double avg;
         StringBuilder output = new StringBuilder();
 
-        for (int i=0; i<numbers.length;i++){
-            output.append("Введено число: ").append(numbers[i]).append("\n");
-            if(numbers[i]<0){
-                sum+=numbers[i];
+        for (int i=0; i<numbers2.length;i++){
+            output.append("Введено число: ").append(numbers2[i]).append("\n");
+            if(numbers2[i]<0){
+                sum+=numbers2[i];
                 count++;
             }
         }
