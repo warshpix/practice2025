@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Task7 {
     public static void main(String[] args) {
         //Реалізувати програму, яка міняє місцями останній рядок і перший стовпець
